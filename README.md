@@ -1,1 +1,3 @@
 # ShellInC
+
+Developed a custom Unix-like shell in C to handle both single and piped commands with input/output redirection. Implemented a robust command parsing system that handles arguments, input/output redirection using file descriptors, and appending functionality. The shell supports piping between multiple commands by creating and managing processes with fork() and pipe(), while ensuring seamless data transfer between command executions. Built error handling for system calls like chdir(), open(), and execvp(), providing a resilient environment for command execution. This project improved my understanding of low-level process management and inter-process communication in operating systems.
